@@ -1,0 +1,63 @@
+.btn {
+  padding: 30px 48px;
+  max-width: 222px;
+  max-height: 72px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  font-size: $fontsize12;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  &>svg {
+    margin-left: 12px;
+  }
+}
+
+.btn__black {
+  border: 1px solid $dark-background;
+  color: $background;
+  background-color: $dark-background;
+
+  &>svg {
+    fill: $background;
+  }
+
+  &:hover,
+  &:focus {
+    border: 1px solid $accent;
+    color: $dark-background;
+    background-color: $accent;
+
+    &>svg {
+      color: $dark-background;
+      fill: $dark-background;
+    }
+  }
+}
+
+.btn__white {
+  border: 1px solid $background;
+  color: $textcolor;
+  background-color: $background;
+
+  &>svg {
+    fill: $dark-background;
+  }
+
+  &:hover,
+  &:focus {
+    border: 1px solid $accent;
+    color: #000000;
+    background-color: $accent;
+
+    &>svg {
+      fill: #000000;
+    }
+  }
+
+}

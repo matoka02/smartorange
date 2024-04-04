@@ -1,0 +1,44 @@
+.property-container {
+  padding: 0 0 30px 0;
+
+  @media screen and (min-width: 768px) {
+    padding: 0 0 60px 0;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 0 0 120px 0;
+  }
+}
+
+.property__list{
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 1440px){
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  & li {
+    display: flex;
+    max-width: 570px;
+    gap: 30px;
+    align-items: flex-start;
+  }
+}
+
+.property__numbers{
+  font-family: "SF Pro Display";
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 900;
+  color: #f2f2f2;
+}
+
+.property__text{
+  font-size: $fontsize22;
+  line-height: 1.63em;
+  font-weight: 400;
+  color: $textcolor;
+}

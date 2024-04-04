@@ -1,2 +1,22 @@
 @import './common';
 // @import './example';
+
+@import './utils/fonts';
+@import './utils/variables';
+@import './base/commons';
+@import './utils/visually-hidden';
+@import './base/container';
+
+
+@import './components/main-title';
+@import './components/title';
+@import './components/button';
+@import './components/logo';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/about';
+@import './layout/property';
+@import './layout/projects';
+@import './layout/order';
+@import './layout/footer';

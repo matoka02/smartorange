@@ -1,0 +1,41 @@
+body {
+  // font-family: 'TT-Hoves-Pro-Trial-Regular';
+  font-family: 'TT Hoves', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  background-color: $background;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul li{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

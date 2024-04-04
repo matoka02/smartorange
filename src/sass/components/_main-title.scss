@@ -1,0 +1,15 @@
+.main-title{
+  max-width: 128px;
+
+  font-size: $fontsize64;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-wrap: wrap;
+
+  color: $accent;
+
+  &>span{
+    font-weight: 700;
+    color: $textcolor;
+  }
+}

@@ -1,0 +1,10 @@
+.logo-wrapper {
+  position: relative;
+  height: 42px;
+}
+
+.logo-wrapper>a>img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

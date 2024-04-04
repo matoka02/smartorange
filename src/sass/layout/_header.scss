@@ -1,0 +1,41 @@
+.page-header {
+  padding: 30px 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 135px;
+
+  @media screen and (min-width: 1440px) {
+    gap: 330px;
+  }
+}
+
+.nav-list {
+  display: none;
+
+  color: $textcolor;
+  font-size: $fontsize12;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 30px;
+  }
+  @media screen and (min-width: 1440px) {
+    gap: 60px;
+  }
+
+  &__link {
+    padding: 4px 0;
+
+    &:hover,
+    &:focus {
+      border-top: 1px solid $textcolor;
+      border-bottom: 1px solid $textcolor;
+    }
+  }
+}
