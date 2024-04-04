@@ -1,0 +1,48 @@
+<section class="service">
+  <div class="container service-container">
+    <h2 class="title">Связаться с нами</h2>
+    <div class="service-wrapper">
+      <form class="service__form" method="post">
+        <div class="form-floating">
+          <input class="form-control" type="text" id="name" placeholder="Имя" />
+          <label for="name">Имя</label>
+        </div>
+        <div class="form-floating">
+          <input class="form-control" type="tel" id="phone" placeholder="Номер телефона*"
+            pattern="^((3|\+8)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required />
+          <label for="phone">Номер телефона<span>*</span></label>
+        </div>
+        <div class="form-floating">
+          <input class="form-control" type="email" id="mail" placeholder="E-mail*"
+            pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/"
+            title='The email address must contain the character "@"' required />
+          <label for="mail">E-mail<span>*</span></label>
+        </div>
+        <div class="form-floating">
+          <select class="form-select" name="product" id="product">
+            <option value="">Интересующий товар/услуга</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control" id="message" cols="30" rows="10" placeholder="Сообщение*"
+            required></textarea>
+          <label for="message">Сообщение<span>*</span></label>
+        </div>
+        <div class="form-floating-check">
+          <input type="checkbox" id="agreement" required />
+          <label for="agreement">Отправляя заявку Вы соглашаетесь с политикой
+            конфиденциальности</label>
+        </div>
+        <button class="btn btn__black service-btn" type="submit">
+          Отправить
+          <svg width="20" height="8">
+            <use href="./images/sprite.svg#shape-right"></use>
+          </svg>
+        </button>
+      </form>
+      <img class="service__img" src="./images/image-12.jpg" alt="отправьте данные" />
+    </div>
+  </div>
+</section>
