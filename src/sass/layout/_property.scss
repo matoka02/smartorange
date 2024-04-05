@@ -1,12 +1,11 @@
 .property-container {
-  padding: 0 0 30px 0;
+  padding-bottom: 30px;
 
   @media screen and (min-width: 768px) {
-    padding: 0 0 60px 0;
+    padding-bottom: 60px;
   }
-
   @media screen and (min-width: 1440px) {
-    padding: 0 0 120px 0;
+    padding-bottom: 120px;
   }
 }
 
@@ -22,6 +21,7 @@
 
   & li {
     display: flex;
+    width: 100%;
     max-width: 570px;
     gap: 30px;
     align-items: flex-start;
@@ -29,16 +29,25 @@
 }
 
 .property__numbers{
-  font-family: "SF Pro Display";
+  width: 120px;
+
+  font-family: "SF Pro Display", sans-serif;
   font-size: 200px;
   font-style: normal;
   font-weight: 900;
+
   color: #f2f2f2;
 }
 
 .property__text{
-  font-size: $fontsize22;
+  font-size: $fontsize16;
   line-height: 1.63em;
   font-weight: 400;
+  word-break: normal;
+
   color: $textcolor;
+
+  @media screen and (min-width: 768px) {
+    font-size: $fontsize22;
+  }
 }

@@ -1,7 +1,7 @@
 .container {
   // 0px - 359px
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 12px;
+  padding-right: 12px;
   // background-color: $via-magenta;
   // 360px - 767px
   @media screen and (min-width: 360px) {
@@ -12,6 +12,8 @@
   // 758px - 1439px
   @media screen and (min-width: 768px) {
     width: 768px;
+    padding-left: 0;
+    padding-right: 0;
   }
   // 1440px +
   @media screen and (min-width: 1440px) {
